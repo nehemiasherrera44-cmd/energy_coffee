@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Energy Coffee | jQuery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">☕ ENERGY COFFEE</div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="json.html">JSON</a>
+        <a href="hosting.html">Hosting</a>
+        <a href="cuestionario.html">Cuestionario</a>
+    </nav>
+
+</header>
+
+<section class="titulo-pagina">
+
+    <p>TECNOLOGÍA WEB</p>
+
+    <h1>jQuery</h1>
+
+    <span>
+        Una biblioteca de JavaScript que facilita el desarrollo
+        de páginas web interactivas.
+    </span>
+
+</section>
+
+<main class="contenido">
+
+    <section class="bloque">
+
+        <h2>¿Qué es jQuery?</h2>
+
+        <p>
+            jQuery es una biblioteca de JavaScript creada para
+            simplificar algunas tareas frecuentes del desarrollo web.
+        </p>
+
+        <p>
+            Permite seleccionar elementos HTML, manejar eventos
+            y crear efectos de una manera sencilla.
+        </p>
+
+    </section>
+
+    <section class="bloque">
+
+        <h2>Sintaxis básica</h2>
+
+        <p>
+            Una de las características principales de jQuery es
+            el uso del símbolo <strong>$</strong>.
+        </p>
+
+        <pre><code>
+$("#mensaje").hide();
+
+$("#mensaje").show();
+        </code></pre>
+
+    </section>
+
+    <section class="bloque">
+
+        <h2>Ventajas y desventajas</h2>
+
+        <div class="comparacion">
+
+            <div>
+                <h3>Ventajas</h3>
+
+                <ul>
+                    <li>Sintaxis sencilla.</li>
+                    <li>Facilita algunas tareas.</li>
+                    <li>Permite crear efectos fácilmente.</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h3>Desventajas</h3>
+
+                <ul>
+                    <li>Necesita una biblioteca externa.</li>
+                    <li>JavaScript moderno ya ofrece muchas alternativas.</li>
+                    <li>No siempre es necesario en proyectos nuevos.</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bloque">
+
+        <h2>Ejemplo de jQuery</h2>
+
+        <div id="mensaje" class="mensaje-jquery">
+
+            ☕ ¡Este mensaje utiliza jQuery!
+
+        </div>
+
+        <button id="botonJquery">
+            Mostrar / Ocultar
+        </button>
+
+    </section>
+
+    <section class="bloque">
+
+        <h2>JavaScript vs jQuery</h2>
+
+        <table>
+
+            <tr>
+                <th>JavaScript</th>
+                <th>jQuery</th>
+            </tr>
+
+            <tr>
+                <td>document.querySelector("#mensaje")</td>
+                <td>$("#mensaje")</td>
+            </tr>
+
+            <tr>
+                <td>element.style.display = "none"</td>
+                <td>$("#mensaje").hide()</td>
+            </tr>
+
+            <tr>
+                <td>element.style.display = "block"</td>
+                <td>$("#mensaje").show()</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section class="fuentes">
+
+        <h3>Recursos y bibliografía</h3>
+
+        <p>jQuery Documentation</p>
+        <p>W3Schools</p>
+
+    </section>
+
+</main>
+
+<footer>
+    <h3>☕ Energy Coffee</h3>
+    <p>Investigación sobre jQuery</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

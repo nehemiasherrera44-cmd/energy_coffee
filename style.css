@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5E6D3;
+    color: #3E2A20;
+}
+
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    background-color: #6F4E37;
+    color: white;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 12px;
+    border-radius: 7px;
+}
+
+nav a:hover {
+    background-color: #6B8E23;
+}
+
+
+/* ---------------- INICIO ---------------- */
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 10%;
+    background-color: #E8D5C4;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.mini-titulo {
+    color: #6B8E23;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    color: #4B2E20;
+    line-height: 0.95;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #6B8E23;
+}
+
+.hero-text > p:not(.mini-titulo) {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+button {
+    border: none;
+    background-color: #6B8E23;
+    color: white;
+    padding: 13px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #526E1C;
+}
+
+
+/* ---------------- PRODUCTO ---------------- */
+
+.producto-principal {
+    background-color: white;
+    padding: 35px;
+    width: 280px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.vaso-cafe {
+    font-size: 120px;
+}
+
+.producto-principal h2 {
+    color: #6F4E37;
+    margin: 10px;
+}
+
+.producto-principal strong {
+    display: block;
+    font-size: 25px;
+    color: #6B8E23;
+    margin-top: 10px;
+}
+
+
+/* ---------------- SECCIONES ---------------- */
+
+.seccion {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.seccion h2,
+.colores-seccion h2 {
+    font-size: 35px;
+    color: #6F4E37;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tarjeta h3 {
+    color: #6F4E37;
+    margin: 15px 0;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.icono {
+    font-size: 40px;
+}
+
+
+/* ---------------- COLORES ---------------- */
+
+.colores-seccion {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: #EFE0CF;
+}
+
+.colores {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.color-item {
+    width: 180px;
+}
+
+.circulo {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.marron {
+    background-color: #6F4E37;
+}
+
+.beige {
+    background-color: #F5E6D3;
+    border: 1px solid #bbb;
+}
+
+.verde {
+    background-color: #6B8E23;
+}
+
+.color-item h3 {
+    margin-top: 15px;
+}
+
+.color-item p {
+    font-weight: bold;
+}
+
+.color-item span {
+    font-size: 14px;
+}
+
+
+/* ---------------- PÁGINAS ---------------- */
+
+.titulo-pagina {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #E8D5C4;
+}
+
+.titulo-pagina p {
+    color: #6B8E23;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.titulo-pagina h1 {
+    font-size: 55px;
+    color: #4B2E20;
+    margin: 15px 0;
+}
+
+.titulo-pagina span {
+    font-size: 18px;
+}
+
+.contenido {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.bloque {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.bloque h2 {
+    color: #6F4E37;
+    margin-bottom: 18px;
+}
+
+.bloque p {
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+
+/* ---------------- COMPARACIÓN ---------------- */
+
+.comparacion {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.comparacion > div {
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    background-color: #F5E6D3;
+    border-radius: 12px;
+}
+
+.comparacion h3 {
+    color: #6B8E23;
+    margin-bottom: 10px;
+}
+
+
+/* ---------------- CÓDIGO ---------------- */
+
+pre {
+    background-color: #252525;
+    color: #F5E6D3;
+    padding: 25px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+
+/* ---------------- TABLA ---------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #c5b5a5;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #6F4E37;
+    color: white;
+}
+
+
+/* ---------------- JQUERY ---------------- */
+
+.mensaje-jquery {
+    padding: 25px;
+    background-color: #E8D5C4;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+/* ---------------- FLUJO ---------------- */
+
+.flujo {
+    text-align: center;
+    background-color: #F5E6D3;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.dominio-ejemplo {
+    background-color: #6F4E37;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.tld {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tld div {
+    background-color: #F5E6D3;
+    padding: 25px;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tld strong {
+    display: block;
+    font-size: 30px;
+    color: #6B8E23;
+    margin-bottom: 10px;
+}
+
+
+/* ---------------- CUESTIONARIO ---------------- */
+
+.pregunta {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.pregunta h3 {
+    color: #6F4E37;
+    margin-bottom: 15px;
+}
+
+.pregunta label {
+    display: block;
+    background-color: #F5E6D3;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.pregunta label:hover {
+    background-color: #E8D5C4;
+}
+
+.pregunta input {
+    margin-right: 8px;
+}
+
+.boton-quiz {
+    text-align: center;
+    margin: 30px;
+}
+
+#resultado {
+    background-color: #6B8E23;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 20px;
+    display: none;
+}
+
+
+/* ---------------- FUENTES ---------------- */
+
+.fuentes {
+    background-color: #E8D5C4;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.fuentes h3 {
+    color: #6F4E37;
+    margin-bottom: 10px;
+}
+
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    margin-bottom: 8px;
+}
+
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 800px) {
+
+    header {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .titulo-pagina h1 {
+        font-size: 42px;
+    }
+
+    .comparacion {
+        flex-direction: column;
+    }
+
+}
